@@ -584,9 +584,6 @@ p {
     opacity: 0.8;
     /* z-index: ; */
   }
-  
-  .hero-content h1{
-    font-size: 30px;
 }
 
 #hero .hero-content {
@@ -605,6 +602,12 @@ p {
   text-transform: uppercase;
   color: #fff;
   z-index: 9999;
+}
+
+@media (max-width: 769px) {
+  .hero-content h1{
+    font-size: 32px;
+  }
 }
 
 .hero-content p {
