@@ -584,6 +584,9 @@ p {
     opacity: 0.8;
     /* z-index: ; */
   }
+  
+  .hero-content h1{
+    font-size: 32px;
 }
 
 #hero .hero-content {
